@@ -23,17 +23,17 @@ I build backend systems in **Java / Spring Boot** — API design, authentication
 
 ### Featured Projects
 
-> Replace these with your 2–3 strongest repos — pin them on your profile too. One line each: what it does, and one interesting technical decision.
+**[CIVICA](https://github.com/Yogesh-Bhatt-SWD/CIVICA)** — AI-powered civic issue reporting platform with role-based workflows for citizens and authorities.
+`Java` `Spring Boot` `Spring Security` `MongoDB` `Redis` `YOLOv8` `React 19`
+- Full issue lifecycle tracking (OPEN → IN PROGRESS → RESOLVED) with JWT-secured, role-based backend workflows
+- YOLOv8 detection pipeline for automated issue classification — ~85% accuracy across 5 categories, trained on 10,000+ images
+- Redis-based duplicate detection cut redundant submissions by ~35%; MongoDB geospatial queries drive issue prioritization
 
-**[Project Name](https://github.com/Yogesh-Bhatt-SWD/repo-name)** — One-line description of what it does and who it's for.
-`Java` `Spring Boot` `MySQL` `JWT`
-- Key technical detail (e.g. "Implemented role-based access with Spring Security + JWT refresh tokens")
-- Another detail — a tradeoff you made, a bug you solved, a metric if you have one
-
-**[Project Name](https://github.com/Yogesh-Bhatt-SWD/repo-name)** — One-line description.
-`Java` `MongoDB` `REST`
-- Key technical detail
-- Key technical detail
+**[NoteSphere](https://github.com/Yogesh-Bhatt-SWD/NotesSphere)** — Secure journaling backend with sentiment analysis and role-based, user-isolated workflows.
+`Java` `Spring Boot` `MongoDB` `Redis` `OAuth2` `JWT` `Swagger/OpenAPI`
+- Layered DTO-Service-Repository architecture with JWT + OAuth2 supporting both password and third-party login
+- VADER-based sentiment analysis and rule-based NLP auto-tagging to surface emotional patterns in entries
+- Redis caching cut average MongoDB read latency by ~40%; full API docs via Swagger/OpenAPI with Postman collections
 
 <br/>
 
